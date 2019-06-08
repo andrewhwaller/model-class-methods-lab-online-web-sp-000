@@ -19,5 +19,5 @@ class Boat < ActiveRecord::Base
     all.order(name: :desc).limit(3)
   end
 
-  
+
 end
